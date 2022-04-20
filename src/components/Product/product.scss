@@ -1,0 +1,9 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.product__image{
+    object-fit: cover;
+}

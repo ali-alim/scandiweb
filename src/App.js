@@ -1,3 +1,4 @@
+import Category from "./components/Category/Category";
 import Navbar from "./components/Navbar/Navbar";
 
 
@@ -5,6 +6,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Category />
     </div>
   );
 }
