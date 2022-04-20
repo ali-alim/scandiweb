@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between
+}
+
+.navbar__left{
+    display: flex;
+    text-transform: uppercase;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: var(--c-primary);
+    }
+    p{
+        margin: 5px;
+    }
+    p:hover{
+        
+        div{
+            background-color: var(--c-primary);
+        }
+    }
+    div{
+        margin: 0 auto;
+        height: 2px;
+        background: transparent;
+        margin-top: 15px;
+}
+}
